@@ -10,6 +10,6 @@ def insertionsort(lists): # Sort the list using insertion sort.
             j = j - 1
             steps += 1
     print(lists)
-    print("Steps taken to sort the given list: " + str(steps))
+    print("Steps taken to sort the given list: " + str(steps - 1))
 numbers = [1,4,3,5,0,2,7,6,9,8,10]
 insertionsort(numbers)
