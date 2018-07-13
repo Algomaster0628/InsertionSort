@@ -7,6 +7,7 @@ def insertionsort(lists): # Sort the list using insertion sort.
                 lists[j-1],lists[j] = lists[j],lists[j-1] # Swaps the values for sorting
             else:
                 break
+            j = j - 1
             steps += 1
     print(lists)
     print("Steps taken to sort the given list: " + str(steps))
