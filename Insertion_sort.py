@@ -1,5 +1,4 @@
 def insertionsort(lists): # Sort the list using insertion sort.
-    steps = 0
     for item in lists:
         j = lists.index(item)
         while j > 0:
@@ -8,8 +7,6 @@ def insertionsort(lists): # Sort the list using insertion sort.
             else:
                 break
             j = j - 1
-            steps += 1
     print(lists)
-    print("Steps taken to sort the given list: " + str(steps - 1))
 numbers = [1,4,3,5,0,2,7,6,9,8,10]
 insertionsort(numbers)
